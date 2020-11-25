@@ -62,7 +62,7 @@ public class Server {
         
         try { //PLAYER CONNECTIONS
             System.out.println("Awaiting player connection.");
-            ServerSocket ss = new ServerSocket(7777); //OPEN A SERVER SOCKET PORT 7777
+            ServerSocket ss = new ServerSocket(8000); //OPEN A SERVER SOCKET PORT 7777
             
             while (true) {
                 Socket pa = ss.accept(); //CONNECT PLAYER 1
